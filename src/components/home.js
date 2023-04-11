@@ -205,38 +205,38 @@ export default class Home extends Component {
         <h2>Our <span className="content-text">Services</span></h2>
         <p>Our entrepreneurial approach to hotel operations focuses on building authentic relationships, identifying opportunities, and achieving common goals.</p>
         </div>
-        <div className="col-sm-5">
+        <div className="col-sm-7">
           <div className="sec">
           <p className="demo-content-p"> Hotel Management Services </p>      
           <p className="wrapper-text">Cloud10 hospitality team of experts create and gives you end-to-end functional solution that includes most important elements of hotel management.</p>
           <button className="read_button"><Link to="/hoteloperation" className="read_link">Read More &rarr;</Link></button>
           </div>
         </div>
-        <div className="col-sm-7">
+        <div className="col-sm-5">
         <div className="right-image">
             <img src={require('./../assets/download.png')} alt="hero1"/>
           </div>
         </div>
-        <div className="col-sm-5">
+        <div className="col-sm-7">
         <div className="right-image">
             <img src={require('./../assets/Business-Consultant.png')} alt="hero1"/>
           </div>
         </div>
-        <div className="col-sm-7">
+        <div className="col-sm-5">
         <div className="sec">
         <p className="demo-content-p"> Hotel Consultancy Services </p>
         <p className="wrapper-text">We know how to enhance your business we’ve been there.Manage Revenue,manage Guest,manage Profit etc.</p>
         <button className="read_button"><Link to="/hotel-management" className="read_link">Read More &rarr;</Link></button>
         </div>
         </div>
-        <div className="col-sm-5">
+        <div className="col-sm-7">
         <div className="sec">
         <p className="demo-content-p">Hotel Development Services</p>      
         <p className="wrapper-text">Development, operations, asset management,food & beverage, marketing, & accounting services we're here to help you.</p>
         <button className="read_button"><Link to="/revenue" className="read_link">Read More &rarr;</Link></button>
         </div>
         </div>
-        <div className="col-sm-7">
+        <div className="col-sm-5">
           <div className="right-image">
             <img src={require('./../assets/k.png')} alt="hero1"/>
           </div>
